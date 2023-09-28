@@ -1,3 +1,5 @@
+# SCT211-0071/2022 Gift Nestah
+
 def func_add():
     num1 = input("First number: ")
     num2 = input("Second number: ")
