@@ -26,6 +26,8 @@ def func_divide():
 
 def allOperations():
     condition = True
+    name = input("Enter your name: ")
+    print("Welcome " + name)
     while (condition):
         print("\nChoose Operation to carry out")
         print(
