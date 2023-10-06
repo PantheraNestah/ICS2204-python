@@ -1,3 +1,5 @@
+# SCT211-0071/2022 Gift Nestah
+
 def func_bmiCalc():
   float(weight) = input("Enter weight :")
   float(height) = input("Enter height :") 
