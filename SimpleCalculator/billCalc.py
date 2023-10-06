@@ -5,4 +5,6 @@ def func_bill():
 
     div_amt = float(amt / peopleNum)
 
-    print(f"\t-> {div_amt}")
+    print(f"\n\t-> {div_amt:.2f}")
+
+func_bill()
