@@ -2,6 +2,7 @@ def func_bill():
     amt = int(input("Enter total bill amount : "))
     tip = int(input("Choose a tip amount (10, 12 or 15)% : "))
     peopleNum = int(input("Number of people splitting bill : "))
+    amt += amt * (tip * 0.01)
 
     div_amt = float(amt / peopleNum)
 

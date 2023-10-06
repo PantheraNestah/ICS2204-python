@@ -19,8 +19,8 @@ def func_ageCalc():
 def allOperations():
     name = input("Enter your name: ")
     print("Welcome " + name)
-    #sum = func_add()
-    #print("Sum is: " + str(sum))
+    sum = func_add()
+    print("Sum is: " + str(sum))
     func_ageCalc()
     
    
