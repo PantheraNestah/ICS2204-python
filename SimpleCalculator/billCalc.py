@@ -1,3 +1,4 @@
+# SCT211-0071/2022 Gift Nestah
 def func_bill():
     amt = int(input("Enter total bill amount : "))
     tip = int(input("Choose a tip amount (10, 12 or 15)% : "))
