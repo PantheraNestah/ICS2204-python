@@ -18,8 +18,13 @@ class Calculator:
         print (f"The product of {self.num1} and {self.num2} is: {sum}")
 
     def func_div(self):
-        sum = self.num1 / self.num2
-        print (f"The division of {self.num1} by {self.num2} is: {sum}")
+        try:
+            sum = self.num1 / self.num2
+            print (f"The division of {self.num1} by {self.num2} is: {sum}")
+        except:
+            raise ZeroDivisionError("Division by zero is undefined!")
+        finally:
+            print("For valid division operations, num2 should be greater than 0")
 
     def func_modul(self):
         sum = self.num1 % self.num2
@@ -34,7 +39,6 @@ class Calculator:
         print(f"You are {age_years} years old")
         print(f"You are {age_months} months old")
         print(f"You are approximately {age_days} days old")
-
 calc1 = Calculator(13, 43)
 calc1.func_add()
 calc1.func_diff()
@@ -43,3 +47,5 @@ calc1.func_mult()
 calc1.func_modul()
 
 calc1.func_ageCalc()
+calc3 = Calculator(13,0)
+calc3.func_div()
